@@ -12,7 +12,7 @@ let flippedStringElement = document.getElementById("flipped-string");
 // all'interno dell'input in un array di caratteri, inverta questo array
 // e stampi in pagina la stringa invertita
 
-function stringInverter(){
+function stringInverter() {
 
     // Memorzzo il valore dell'input in a variabile
     let stringElement = userString.value;
@@ -26,6 +26,8 @@ function stringInverter(){
 
     // Creo un nuova stringa con gli elementi invertiti dell'array
     let flippedString = stringArray.join("");
-    
+
+    // Stampo la stringa in pagina nell'elemento flippedStringElement
+    flippedStringElement.innerHTML = "La tua frase/parola rovesciata é :" + flippedString;
 
 }
