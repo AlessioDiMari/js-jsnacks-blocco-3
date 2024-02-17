@@ -20,3 +20,11 @@ const maxPosition = 6;
 // Dichiaro la funzione con i parametri
 cutArray(numbersArray, minPosition, maxPosition);
 
+// Creo la funzione che taglierà l'array
+function cutArray(array, minPosition, maxPosition){
+
+    // Dichiaro il nuovo array tagliato
+    const newArray = [];
+    
+
+}
