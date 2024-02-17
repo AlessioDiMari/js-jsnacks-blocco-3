@@ -35,5 +35,9 @@ function cutArray(array, minPosition, maxPosition){
         newArray.push(array[i]);
 
     }
+    // Faccio il console.log del nuovo array e lo ritorno
+    console.log(newArray);
+
+    return newArray;
 
 }
