@@ -21,4 +21,6 @@ function forgia() {
     }
    
     console.log(acciaioDamasco)
+
+    document.getElementById("risultato").innerHTML = "Le lame in acciaio di damasco sono formate così: " + acciaioDamasco  + "....; e così via fino ad arrivare anche a più di 20 strati";
 }
