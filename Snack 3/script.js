@@ -25,6 +25,15 @@ function cutArray(array, minPosition, maxPosition){
 
     // Dichiaro il nuovo array tagliato
     const newArray = [];
-    
+
+    // Creo un ciclo for per inserire nel nuovo array
+    // gli elementi dell'array iniziale compresi tra
+    // minPosition e maxPositionù
+    for (let i = minPosition; i <= maxPosition; i++){
+
+        // Inserisco gli elementi nel nuovo array
+        newArray.push(array[i]);
+
+    }
 
 }
