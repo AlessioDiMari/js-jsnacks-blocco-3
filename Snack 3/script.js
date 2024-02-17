@@ -13,6 +13,10 @@
 // Dichiaro il primo array
 const numbersArray = [0, 1, 2, 3, 4, 5, 6];
 
-// Do alla funzione dei parametri
+// Dichiaro le due posizioni
+const minPosition = 2;
+const maxPosition = 6;
+
+// Dichiaro la funzione con i parametri
 cutArray(numbersArray, minPosition, maxPosition);
 
